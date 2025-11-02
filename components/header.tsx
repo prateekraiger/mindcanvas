@@ -10,7 +10,6 @@ import { ModeToggle } from "./mode-toggle";
 
 const menuItems = [
   { name: "Features", href: "#link" },
-  { name: "Solution", href: "#link" },
   { name: "Pricing", href: "#link" },
   { name: "About", href: "#link" },
 ];
@@ -92,12 +91,12 @@ export const HeroHeader = () => {
                 <ModeToggle />
                 <Button asChild variant="outline" size="sm">
                   <Link href="#">
-                    <span>Login</span>
+                    <span>Log In</span>
                   </Link>
                 </Button>
                 <Button asChild size="sm">
                   <Link href="#">
-                    <span>Sign Up</span>
+                    <span>Sign Up for Free</span>
                   </Link>
                 </Button>
               </div>
