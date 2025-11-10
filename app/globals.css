@@ -119,4 +119,16 @@
   body {
     @apply bg-background text-foreground;
   }
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+p {
+  @apply text-lg;
+}
+
+pre {
+  @apply bg-zinc-800 text-white p-4 rounded-lg;
+}
 }
