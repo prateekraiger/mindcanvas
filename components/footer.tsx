@@ -37,7 +37,11 @@ export default function Footer() {
         </Link>
 
         <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
-          
+          {links.map((link, index) => (
+            <Link href={link.href} key={index} className="text-muted-foreground hover:text-accent-foreground">
+              {link.title}
+            </Link>
+          ))}
         </div>
         <span className="text-muted-foreground block text-center text-sm">
           {" "}
